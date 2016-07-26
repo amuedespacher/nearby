@@ -1,0 +1,191 @@
+@import url(http://fonts.googleapis.com/css?family=Average+Sans&subset=latin,latin-ext);
+
+body {
+width: 100%;
+font-family: "Average Sans", sans;
+padding: 0px;
+margin: 0px;
+}
+
+a{
+color: black;
+text-decoration: none;
+}
+
+div#header {
+width: 100%;
+background-color:#003399;
+padding-top: 1px;
+padding-bottom: 1px;
+margin: 0px;
+vertical-align: middle;
+text-align: center;
+color: white;
+}
+
+div#headerhome {
+top:0px;
+width: 100%;
+background-color:#003399;
+padding-top: 1px;
+padding-bottom: 1px;
+margin: 0px;
+height: 88px;
+vertical-align: middle;
+text-align: center;
+color: white;
+background-image: url('i/bgtop.png');
+background-repeat: no-repeat;
+}
+
+div#resthome {
+width: 100%;
+background-color:#dddddd;
+padding: 0px;
+margin: 0px;
+height: 100%;
+color: grey;
+background-image: url('i/bgdown.png');
+background-repeat: no-repeat;
+}
+
+div#header h1{
+font-size: 28px;
+font-weight: normal;
+cursor: pointer;
+}
+
+div#header2 {
+width: 100%;
+background-color:#003399;
+padding-top: 1px;
+padding-bottom: 1px;
+margin: 0px;
+vertical-align: middle;
+text-align: center;
+color: white;
+font-size: 0.8em;
+}
+
+div#footer {
+width: 100%;
+background-color:#003399;
+padding-top: 1px;
+padding-bottom: 1px;
+padding-left: 20px;
+padding-right: 20px;
+margin: 0px;
+/*height:180px;*/
+bottom: 0px;
+position: fixed;
+display: none;
+vertical-align: middle;
+text-align: center;
+color: white;
+font-size: 0.8em;
+cursor: pointer;
+}
+
+div#header2 h1{
+font-size: 16px;
+font-weight: normal;
+cursor: pointer;
+}
+
+
+table#tabl {
+width: 100%;
+border-collapse: collapse;
+empty-cells: show;
+
+}
+
+table#tabl tr td {
+padding-left: 5px;
+padding-right: 5px;
+border-bottom: 1px solid grey;
+height: 60px;
+}
+
+
+table#tabl tr td.kl {
+font-size: 0.8em;
+color: grey;
+height: 20px;
+}
+
+#header1 h1 img {
+text-decoration: none;
+border:none;
+visibility: visible;
+
+}
+
+table#tabl tr td.schild {
+color: white;
+text-align:center;
+font-weight: bold;
+
+}
+
+#header2 h2{
+font-size: 1em;
+font-weight: normal;
+}
+
+#footer h2{
+font-size: 1.5em;
+font-weight: normal;
+}
+
+#footer a{
+text-decoration: underline;
+color: white;
+}
+
+sup{
+font-weight: normal;
+font-size: 0.6em;
+}
+
+#button{
+-moz-border-radius:10px;
+border-radius:10px;
+background-color:#ff0000;
+color:white;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+min-width: 10px;
+max-width: 200px;
+cursor: pointer;
+display: inline;
+font-size: 2em;
+}
+
+small{
+font-weight: normal;
+}
+
+#uhr{
+padding: 0px;
+bottom:0px;
+position:fixed;
+width: 100%;
+background-color:#003399;
+padding-top: 1px;
+padding-bottom: 1px;
+margin: 0px;
+vertical-align: middle;
+text-align: center;
+color: white;
+
+}
+
+.clic {
+cursor: pointer;
+}
+
+tr.clic:hover, td.clic:hover, td.clic:active {
+background-color: #dddddd;
+}
