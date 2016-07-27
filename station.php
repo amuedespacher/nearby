@@ -91,7 +91,7 @@ for($i = 0; $i < count($station_arr->stations); $i++ ){
 	$lngb = $station_arr->stations[$i]->coordinate->x;
 	echo "<tr onclick='self.location.href=\"board.php?id=".$station_arr->stations[$i]->id."\"' class='clic'>";
 	echo "<td >".$station_arr->stations[$i]->name."</td>";
-	echo "<td onclick='self.location.href=\"http://maps.apple.com/maps?q=".$lat.",".$lng."\"' style='cursor:pointer;'>".calculate_distance($lat, $lng, $lngb, $latb)."m</a></td>";
+	echo "<td onclick='self.location.href=\"http://maps.apple.com/maps?q=".$latb.",".$lngb."\"' style='cursor:pointer;'>".calculate_distance($lat, $lng, $lngb, $latb)."m</a></td>";
 	echo "</tr>";
 
 } 
