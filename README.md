@@ -17,5 +17,5 @@ This is a small tool to retrieve the closest train station or bus or tram stop n
 
 Anybody is welcomed to contribute to this small project
 Ideas for further contributions:
- * Load content dynamically and faster
- * Add session that stores the most frequently used stations
+* Load content dynamically and faster
+* Add session that stores the most frequently used stations
